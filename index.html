@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMoose - One Stop Shop For Fitness.</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesom link -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+      <!-- favicon link -->
+      <link rel="icon" href="images/favicon.ico">
+
+      <!-- swiper link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+      <!-- css responsive link -->
+<link rel="stylesheet" href="responsive.css">
+
+     </head>
+
+  <body>
+
+<!-- header section start -->
+
+    <header class="header">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><img src="images/logo.JPG" alt="" /></a>
+
+      <nav class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">equipment <span class="arrow">&#9662;</span></button>
+            <div class="dropdown-content">
+              <a href="#">arms</a>
+              <a href="#">belts</a>
+               <a href="#">legs</a>
+               <button>view more</button>
+            </div>
+          </div>
+          
+          <div class="dropdown">
+            <button class="dropbtn">supplements <span class="arrow">&#9662;</span></button>
+            <div class="dropdown-content">
+              <a href="#">pre workout</a>
+              <a href="#">post workout</a>
+               <a href="#">intra workout</a>
+               <button>view more</button>
+            </div>
+          </div>
+          
+          <div class="dropdown">
+            <button class="dropbtn">boxing <span class="arrow">&#9662;</span></button>
+            <div class="dropdown-content">
+              <a href="#">MMA gloves</a>
+              <a href="#">sparring gloves</a>
+               <a href="#">skin guard</a>
+               <button>view more</button>
+            </div>
+          </div>
+          
+          <div class="dropdown">
+            <button class="dropbtn">company <span class="arrow">&#9662;</span></button>
+            <div class="dropdown-content">
+              <a href="#">perks</a>
+              <a href="#">about</a>
+               <a href="#">resources</a>
+               <button>view more</button>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">blogs <span class="arrow">&#9662;</span></button>
+            <div class="dropdown-content">
+              <a href="#">workout</a>
+              <a href="#">diet plans</a>
+               <a href="#">recipes</a>
+               <button>view more</button>
+            </div>
+          </div>
+      </nav>
+
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </header>
+
+    <!-- login form -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>foret password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section start here -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-1.JPG) no-repeat;">
+                    <div class="content">
+                        <h3>get $20 on every referal</h3>
+                        <span>join our rewards program today!</span>
+                        <a href="#" class="btn">earn now</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-2.JPG) no-repeat;">
+                    <div class="content">
+                        <h3>strenth & safety together!</h3>
+                        <span>the cure for unwanted elbow pain</span>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide slide" style="background: url(images/home-bg-3.JPG) no-repeat;">
+                    <div class="content">
+                        <h3>lift better and feel better!</h3>
+                        <span>beat knee pain and stay fit!</span>
+                        <a href="#" class="btn">shop now</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    </section>
+
+    <!-- category section start  -->
+
+    <section class="category" id="category">
+
+     <h1>shop by category</h1>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="images/feature 1.JPG" alt="">
+            <div class="content">
+                <button>shop equipment</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="images/feature 2.JPG" alt="">
+            <div class="content">
+                <button>shop accessories</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="images/feature 3.JPG" alt="">
+            <div class="content">
+             <button>shop supplements</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="box-container">
+        <div class="box">
+            <img src="images/feature 4.JPG" alt="">
+            <div class="content">
+              <button>explore blogs</button>
+            </div>
+        </div>
+     </div>
+
+    </section>
+
+<!-- about section start here-->
+
+<section class="about">
+    <h1>why buy from dmoose?</h1>
+    <p>When it comes to starting or maintaining your fitness journey, finding reliable sources and the right tools can be difficult. That's why at DMoose, we provide everything you need in one convenient place: gear, information, supplements, workouts and more. You can trust us as your go-to fitness store. We believe that fitness shouldn't be complicated so we are dedicated to removing any barriers that stand in the way of your workouts. With us, you can save time and focus on what matters most in your life.</p>
+
+    <div class="box-container">
+        <div class="box">
+            <h1>explore the product</h1>
+            <button>shop now</button>
+        </div>
+     </div>
+
+    <img src="images/pic.JPG" alt="">
+
+    </section>
+
+    <!-- about pic section start here -->
+
+    <section class="pic">
+        <div class="box-container">
+            <div class="box">
+                <img src="images/pic-1.JPG" alt="">
+                <div class="content">
+                    <h2> Eric Passa </h2>
+                    <h3>Certified Personal Trainer + Precision Nutrition Coach</h3>
+                    <p>DMoose, right from the start, had quality as their top priority. I love and continue to love the fitness equipment they put out. I just recently have been taking their supplements and, once again, quality ingredients, great effects and awesome taste. THIS COMPANY CARES!</p>
+            </div>
+            </div>
+            <div class="box">
+                <img src="images/pic-2.JPG" alt="">
+                <div class="content">
+                    <h2> Jeffrey P Hendricks </h2>
+                    <h3>MD, CFO Biogenesis Medical and Wellness Center</h3>
+                    <p>Research continues to confirm the benefits and performance boosts of many nutritional supplements, but only when manufactured according to the highest industry standards. DMoose utilizes industry experts to design, manufacture, and 3rd party test all of their nutritional products.</p>
+            </div>
+    </div>
+            <div class="box">
+                <img src="images/pic-3.JPG" alt="">
+                <div class="content">
+                    <h2> Ali Taylor </h2>
+                    <h3>NPC Bikini Athlete</h3>
+                    <p>One of my favorite aspects of DMOOSE is the VARIETY of products they carry! They are with me every step of the way through my workout! From supplements and gear, to stretching and home workouts, DMoose truly covers every base for athletes!</p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+<!-- best seller -->
+
+<section class="seller" id="seller">
+    <h1>best sellers</h1>
+
+    <div class="swiper seller-slider">
+
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide slide">
+              <div class="image">
+                  <img src="images/seller 1.JPG" alt="">
+              </div>
+              <div class="content">
+                <h3>neck harness</h3>
+              <div class="subInfo">
+                  <strong class="price">$33</strong>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i><span class="text">842 reviews</span>
+                  </div>    
+              </div>
+              <p>in stock</p>
+                <a href="#" class="btn">quick view</a>
+            </div>
+          </div>
+          
+          <div class="swiper-slide slide">
+              <div class="image">
+                  <img src="images/seller 2.JPG" alt="">
+              </div>
+              <div class="content">
+                <h3>arm blaster for bicep</h3>
+                <div class="subInfo">
+                    <strong class="price">$50</strong>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i><span class="text">1024 reviews</span>
+                    </div>
+                </div>                 
+                 <p>in stock</p>
+                  <a href="#" class="btn">quick view</a>
+              </div>
+          </div>
+
+          <div class="swiper-slide slide">
+              <div class="image">
+                  <img src="images/seller 3.JPG" alt="">
+              </div>
+              <div class="content">
+                <h3>ab straps for bodyweight</h3>
+                <div class="subInfo">
+                    <strong class="price">$39</strong>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i><span class="text">1076 reviews</span>
+                    </div>
+                </div>                 
+                  <p>in stock</p>
+                  <a href="#" class="btn">quick view</a>
+              </div>
+          </div>
+
+          <div class="swiper-slide slide">
+              <div class="image">
+                  <img src="images/seller 4.JPG" alt="">
+              </div>
+              <div class="content">
+                <h3>lifting hooks</h3>
+                <div class="subInfo">
+                    <strong class="price">$30</strong>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i><span class="text">784 reviews</span>
+                    </div>
+                </div>                  
+                  <p>in stock</p>
+                  <a href="#" class="btn">quick view</a>
+              </div>
+          </div>
+
+          <div class="swiper-slide slide">
+              <div class="image">
+                  <img src="images/seller 5.JPG" alt="">
+              </div>
+              <div class="content">
+                <h3>wrist wrap</h3>
+              <div class="subInfo">
+                  <strong class="price">$19</strong>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i><span class="text">1455 reviews</span>
+                  </div>
+              </div>
+                  <p>in stock</p>
+                  <a href="#" class="btn">quick view</a>
+              </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+                <img src="images/seller 6.JPG" alt="">
+            </div>
+            <div class="content">
+              <h3>ab roller for abs workout</h3>
+              <div class="subInfo">
+                  <strong class="price">$160</strong>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i><span class="text">314 reviews</span>
+                  </div>
+              </div>                 
+               <p>in stock</p>
+                <a href="#" class="btn">quick view</a>
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="image">
+              <img src="images/seller 7.JPG" alt="">
+          </div>
+          <div class="content">
+            <h3>dip belt with chain</h3>
+            <div class="subInfo">
+                <strong class="price">$40</strong>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i><span class="text">1561 reviews</span>
+                </div>
+            </div>                 
+             <p>in stock</p>
+              <a href="#" class="btn">quick view</a>
+          </div>
+      </div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+  </div>
+  <div class="swiper-pagination"></div>
+
+    <button>view all</button>
+</section>
+
+<!-- review section start here -->
+
+<section class="review">
+    <div class="box-container">
+        <div class="box">
+            <img src="images/review 1.JPG" alt="">
+            <div class="content">
+                <p>"The DMoose products are amazing quality, they helped me reach my full potential with training and the lifting straps got me a new personal best and protected my hands when lifting heavy!"</p>
+            <p>-Patrycja</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 2.JPG" alt="">
+            <div class="content">
+                <p>“When I think of DMoose I think of quality and strength. This brand really cares for its customers”</p>
+                <p>-Luca</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 3.JPG" alt="">
+            <div class="content">
+                <p>“DMoose provides top quality products that will not only fit well but assist you in meeting your strength goals. Highly recommended to all seeking improvement in their gym experience”</p>
+                <p>-Kelly</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 4.JPG" alt="">
+            <div class="content">
+                <p>"After all the hard work I put in, I'm not going to take any chances when it comes to supplements. That's why I only use DMoose – because I trust it and know it won't harm my body. So do yourself a favor and give DMoose a try today!"</p>
+                <p>-Moe</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 5.JPG" alt="">
+            <div class="content">
+                <p>“They have great tasting preworkout with quality ingredients that help me get through grueling workouts”</p>
+                <p>-Mitch</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 6.JPG" alt="">
+            <div class="content">
+                <p>“DMoose is my favorite go to fitness brand and I recommend them to any gym goer! Genuine quality and most reliable products!”</p>
+                <p>-Caleb</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 7.JPG" alt="">
+            <div class="content">
+                <p>“DMoose is my one stop shop for everything! My bag is packed with their durable straps, incredible pre workout, tasty supplements and more!”</p>
+                <p>-John</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/review 8.JPG" alt="">
+            <div class="content">
+                <p>"DMoose products provide only the highest quality possible. They use a durable material that truly enable you to meet your fitness goals. For myself personally, I am a bodybuilder with a very regimented program. So to me, using only the highest quality products is essential in order to gain top performance."</p>
+                <p>-Nicole</p>
+            </div>
+        </div>
+    </div>
+    <p>Post on any social media channel using #DMOOSE for a chance to be featured and win free products from DMoose</p>
+</section>
+
+<!-- newsletter section start -->
+
+<section class="newsletter">
+    <div class="content">
+        <h3>get the latest updates in your inbox</h3>  
+    </div>
+    <form action="">
+        <input type="email" name="" placeholder="enter your email" id="" class="email">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+  </section>
+<!-- footer section -->
+
+<section class="footer">
+  <div class="box-container">
+<div class="box">
+  <img src="images/footer img.JPG" alt="">
+</div>
+      <div class="box">
+          <h3>SHOP</h3>
+          <a class="links" href="#exercise & fitness">exercise & fitness</a>
+          <a class="links" href="#supplements">supplements</a>
+          <a class="links" href="#bundle & save">bundle & save</a>
+          <a class="links" href="#gift card">gift card</a>
+          <a class="links" href="#shop all">shop all</a>
+      </div>
+
+      <div class="box">
+        <h3>LEARN</h3>
+        <a class="links" href="#blog">blog</a>
+        <a class="links" href="#workouts">workouts</a>
+        <a class="links" href="#articles">articles</a>
+        <a class="links" href="#diet plan">diet plan</a>
+        <a class="links" href="#exercise">exercise</a>
+        <a class="links" href="#recipes">recipes</a>
+      </div>
+
+      <div class="box">
+        <h3>COMPANY</h3>
+        <a class="links" href="#about us">about us</a>
+        <a class="links" href="#FAQs">FAQs</a>
+        <a class="links" href="#contact us">contact us</a>
+        <a class="links" href="#account">account</a>
+        <a class="links" href="#track your order">track your order</a>
+        <a class="links" href="#warrior program">warrior program</a>
+        <a class="links" href="#accessibility statement">accessibility statement</a>
+        <a class="links" href="#privacy policy">privacy policy</a>
+        <a class="links" href="#refund policy">refund policy</a>
+        <a class="links" href="#terms of service">terms of service</a>
+        <a class="links" href="#accessibility">accessibility</a>
+      </div>
+
+      <div class="box">
+          <h3>REACH OUT</h3>
+          <p> <i class="fas fa-phone"></i> Toll free: (833)366-6733 </p>
+          <p> <i class="fas fa-user"></i> mon-sun: 5am-9pm EST </p>
+          <p> <i class="fas fa-envelope"></i> support@dmoose.com </p>
+          <p> <i class="fas fa-location"></i> 412 n main st., buffalo, WY, 82834, USA </p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-tiktok"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+              <a href="#" class="fab fa-youtube"></a>
+              <a href="#" class="fab fa-instagram"></a>
+          </div>
+      </div>
+    </div>
+
+    <div class="footer-image">
+     <a href="#image"><img src="images/footer button.JPG" alt=""></a>
+    </div>
+  </section>
+  <div class="credit"><span>do the difficult things!</span></div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- js link -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
